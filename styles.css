@@ -62,18 +62,23 @@ header {
 
 header .content {
   align-items: baseline;
+  column-gap: 48px;
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 16px;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
+  text-wrap: nowrap;
 }
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -83,6 +88,7 @@ li {
 
 .navbar a {
   font-weight: 500;
+  text-wrap: nowrap;
 }
 
 /* Hero */
