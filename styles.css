@@ -119,6 +119,10 @@ li {
   line-height: 48px;
 }
 
+.hero img {
+  border-radius: 16px;
+}
+
 /* Features */
 .features {
   padding-block: 50px;
