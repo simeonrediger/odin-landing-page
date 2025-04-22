@@ -12,13 +12,14 @@ body {
   font-size: 18px;
 }
 
-.content {
-  max-width: 1000px;
-}
-
 header, section, footer {
   display: flex;
   justify-content: center;
+}
+
+.content {
+  margin-inline: 32px;
+  max-width: 1000px;
 }
 
 /* Colors */
@@ -87,9 +88,11 @@ li {
 
 .hero .content {
   align-items: center;
+  column-gap: 18px;
   display: flex;
-  gap: 48px;
+  flex-wrap: wrap-reverse;
   justify-content: center;
+  row-gap: 48px;
 }
 
 .hero .message {
@@ -97,6 +100,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  max-width: 400px;
 }
 
 .hero h2 {
@@ -107,10 +111,16 @@ li {
 
 /* Features */
 .features {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding-block: 50px;
   text-align: center;
+  /* gap: 50px; */
+}
+
+.features .content {
+  display: flex;
+  flex-direction: column;
   gap: 50px;
 }
 
@@ -121,6 +131,7 @@ li {
 
 .feature-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 48px;
   justify-content: center;
 }
