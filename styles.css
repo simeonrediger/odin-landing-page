@@ -187,3 +187,9 @@ li {
   border: 2px solid #f9faf8;
   text-wrap: nowrap;
 }
+
+/* Footer */
+footer {
+  align-items: center;
+  height: 100px;
+}
