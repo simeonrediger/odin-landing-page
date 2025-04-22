@@ -27,6 +27,10 @@ header, section, footer {
   background-color: #1f2937;
 }
 
+.light-gray-background {
+  background-color: #e5e7eb;
+}
+
 .sky-blue-background {
   background-color: #3882f6;
 }
@@ -140,4 +144,26 @@ li {
 .feature img {
   border-radius: 16px;
   margin-bottom: 4px;
+}
+
+/* Testimonial */
+.testimonial {
+  padding-block: 100px;
+}
+
+.testimonial .content {
+  max-width: 750px;
+}
+
+.testimonial .quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 250;
+  margin-bottom: 16px;
+}
+
+.testimonial .attribution {
+  font-weight: bold;
+  margin-right: 32px;
+  text-align: right;
 }
