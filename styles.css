@@ -7,7 +7,13 @@
 }
 
 body {
+  color: #e5e7eb;
   font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  max-width: 1000px;
 }
 
 /* Colors */
@@ -15,12 +21,24 @@ body {
   background-color: #1f2937;
 }
 
-.white-text {
+.sky-blue-background {
+  background-color: #3882f6;
+}
+
+.strong-white-text {
   color: #f9faf8;
 }
 
-.secondary-white-text {
-  color: #e5e7eb;
+/* Reusables */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.button {
+  border-radius: 8px;
+  display: inline-block;
+  padding: 8px 32px;
 }
 
 /* Header */
@@ -30,12 +48,11 @@ header {
   padding: 16px;
 }
 
-.container {
+header .content {
   align-items: baseline;
   display: flex;
   flex: 1;
   justify-content: space-between;
-  max-width: 1000px;
 }
 
 .logo {
@@ -53,7 +70,32 @@ li {
 }
 
 .navbar a {
-  font-size: 18px;
   font-weight: 500;
-  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding-block: 100px;
+}
+
+.hero .content {
+  align-items: center;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.hero .message {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
 }
