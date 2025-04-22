@@ -111,11 +111,8 @@ li {
 
 /* Features */
 .features {
-  /* display: flex;
-  flex-direction: column; */
   padding-block: 50px;
   text-align: center;
-  /* gap: 50px; */
 }
 
 .features .content {
