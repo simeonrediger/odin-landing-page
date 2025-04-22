@@ -158,6 +158,7 @@ li {
 }
 
 .testimonial .content {
+  margin-inline: 48px;
   max-width: 750px;
 }
 
